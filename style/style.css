@@ -37,7 +37,6 @@
 .map li.block-first-choose{
     /*background-color: red;*/
     border: 5px solid #ccc;
-    box-sizing: border-box;
 }
 .blocks
 {
@@ -48,6 +47,8 @@
 {
     position: absolute;
     z-index: 5;
+    box-sizing:border-box;
+    border:1px solid #fff;
 }
 .map li,
 .blocks li
